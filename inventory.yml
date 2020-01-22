@@ -1,0 +1,11 @@
+[dbservers]
+52.177.135.11 
+
+[dbservers:vars]
+ansible_user=rodjanasakkit
+ansible_password=Por@12012020
+ansible_connection=winrm
+ansible_port=5985
+ansible_winrm_transport=basic
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_transport=ntlm
